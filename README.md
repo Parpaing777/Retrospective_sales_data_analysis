@@ -6,7 +6,7 @@ The objective is to identify trends and answer key business questions so that st
 The dataset is based on real business data.
 The store name has been changed and some values were pre-selected and slightly manipulated to maintain anonymity and security of the business.However, the structure and patterns remain representative of real-world small business scenarios.
 
-# 📁 Dataset Overview
+## 📁 Dataset Overview
 
 The dataset comes from a US-based game store named "GameTown" (hypothetical name).
 All monetary values are expressed in USD.
@@ -120,3 +120,60 @@ A pivot table `(TCD – Tableau Croisé Dynamique)` is created from the cleaned 
 
 - Metric (Value): Sum of USD_PRICE
 - Time granularity: Monthly (good balance between detail and readability)
+
+For the columns, product names are added to observe how each product performs over time.
+
+In a real-world dataset, there could be hundreds of products, which would make the pivot table difficult to interpret. In such cases, analysts typically pre-select a subset of products, such as:
+
+- Top 10 best-performing products
+- Newly launched products
+- Strategic products with high margins
+
+This approach narrows the scope of the analysis and makes trends easier to interpret.
+
+For this project, the dataset includes 8 products:
+
+- 27in 4K gaming monitor
+- Acer Nitro V Gaming Laptop
+- Dell Gaming Mouse
+- JBL Quantum 100 Gaming Headset
+- Lenovo IdeaPad Gaming 3
+- Nintendo Switch
+- Razer Pro Gaming Headset
+- Sony PlayStation 5 Bundle
+
+![TCD](img/TCD.png)
+_Snippet of the pivot table_
+
+Conditional color formatting is applied to the pivot table to make patterns and performance differences easier to identify across products and months.
+
+### 📝 Documenting Initial Insights
+
+As done earlier with the issue_log, a structured table is created to document insights and analytical observations.
+
+![alt text](img/init_table.png)
+_Initial findings table_
+
+This table is created in the `insights_log` worksheet and records:
+
+- Observed patterns
+- Potential explanations
+- Follow-up questions
+- Relevant teams that may need to investigate further
+
+For example one of the findings is :
+
+> `Large sales spike in 2022 Dec. Check promotional campagins around that time. The most contributing product is the PS5.`
+
+Based on this observation, multiple teams may be involved:
+
+- Finance Team
+  - Evaluate margins and overall ROI from the spike in revenue.
+
+- Marketing Team
+  - Investigate promotional campaigns or seasonal marketing efforts that may have driven the increase in sales.
+
+- Product / Operations Team
+  - Prepare inventory and warehousing strategies for upcoming high-demand periods.
+
+Documenting insights in this way helps transform raw analysis into actionable business intelligence, enabling cross-team collaboration and data-driven decision-making.
