@@ -177,3 +177,116 @@ Based on this observation, multiple teams may be involved:
   - Prepare inventory and warehousing strategies for upcoming high-demand periods.
 
 Documenting insights in this way helps transform raw analysis into actionable business intelligence, enabling cross-team collaboration and data-driven decision-making.
+
+## 📈 Tableau Analysis
+
+After completing the initial analysis in Excel, the next step is to perform a deeper exploration of the data using a Business Intelligence (BI) tool.
+
+Common BI tools used in data analytics include Power BI, Looker, and Tableau.
+For this project, Tableau is used to perform deeper analysis and to build the final interactive dashboard. The Tableau workbook is included in this repository.
+
+Multiple worksheets are created in Tableau to explore different aspects of the data, such as:
+
+- Revenue trends over time
+- Product performance
+- Regional sales distribution
+
+Platform and marketing channel impact
+
+To keep track of the insights discovered during this process, a new table named `Deep Dive Analysis` is created in Excel.
+
+Since this project generates a large number of observations and insights, not every detail is documented in this README.
+
+![alt text](img/deepDive.png)
+_Snippet of the Deep Dive Analysis table_
+
+As shown in the table snippet above, three columns are used to structure the analysis:
+
+- Tableau worksheet/tab – The worksheet where the insight originates
+
+- Findings / Insights – Key observations discovered during analysis
+
+- Recommendations – Suggested actions for relevant teams based on the findings
+
+This structure helps ensure that insights discovered in Tableau are clearly documented and can be communicated effectively to stakeholders.
+
+### 📌 Business Recommendations
+
+After documenting the insights from the deep dive analysis, the final step is to translate these insights into clear and actionable recommendations.
+
+To facilitate communication between teams, a separate table named `Recommendations` is created.
+
+![alt text](img/recommendations.png)
+_Recommendations table_
+
+In this table:
+
+- The left column identifies the relevant team (e.g., Marketing, Finance, Sales, Development).
+- The right column outlines clear actions or recommendations based on the insights obtained during the analysis.
+
+This step is important because the goal of data analysis is not only to generate insights, but also to support decision-making and guide business actions.
+
+## 📈 Tableau Dashboard
+
+After completing the analysis, the final step is to present the insights in a clear and structured dashboard.
+
+An important aspect of dashboard design is understanding the target audience.
+Depending on the audience and their level of technical expertise, the dashboard must be structured differently.
+For example:
+
+- Executives usually need high-level KPIs and trends.
+- Operational teams may require more detailed breakdowns and drill-down views.
+
+For this reason, effective dashboards focus less on flashy colors or complex graphics and more on clarity, readability, and meaningful metrics.
+
+The goal is to ensure that every chart, metric, and dimension serves a clear analytical purpose.
+
+![alt text](img/dash1.png)
+![alt text](img/dash2.png)
+
+You can interact with the dashboard and explore the visualizations here 👉 [Interactive Tableau Dashboard](https://public.tableau.com/views/GameTown_Dashboard/SalesDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
+### Dashboard Structure
+
+The dashboard, titled `Sales Performance Dashboard (2019-2023)`, is structured to guide the user from high-level overview to detailed insights.
+
+Top Section (Executive KPIs)
+
+- Total Sales
+- Average Order Value (AOV)
+- Total Orders
+
+These metrics provide quick insights for executives and decision-makers.
+
+Middle Section (Sales Metrics)
+
+- Product sales across time
+- Product performance comparisons
+
+This section helps identify seasonal patterns and the impact of the COVID period.
+
+Bottom Section (Regional Sales)
+
+- A stacked graph of regional sales to identify peak regions across time
+
+The layout follows a top-to-bottom and left-to-right reading flow, moving from summary metrics toward more detailed analysis.
+
+## 📊 Final Deliverables
+
+This project includes:
+
+- Cleaned dataset
+- Issue log documenting data quality problems
+- Initial exploratory analysis in Excel
+- Deep dive analysis using Tableau
+- Business recommendations derived from insights
+- Interactive Tableau dashboard
+
+## 🎯 Key Skills Demonstrated
+
+- Exploratory Data Analysis (EDA)
+- Data Cleaning & Data Quality Documentation
+- Pivot Table Analysis
+- Business Intelligence (Tableau)
+- Translating data insights into business recommendations
+- Stakeholder-oriented analytical thinking
